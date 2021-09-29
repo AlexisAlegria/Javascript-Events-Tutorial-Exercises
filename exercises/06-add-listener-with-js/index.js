@@ -4,3 +4,8 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+var btnGreen = document.getElementById('theGreen');
+btnGreen.addEventListener('click', myAlert);
+function myAlert (e){
+	alert('woohoo!');
+}
